@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                Sidebar
+            </div>
+            <div class="col-9">
+
+            
+    <h1>Attributes</h1>
+
+  
+
+  
+    <h2>HTML Attributes</h2>
+    <div class="card">
+        <div class="card-body">
+
+          <p>HTML attributes provide additional information about HTML elements.</p>
+
+          <ul>
+            <li>All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about elements</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>
+          </ul>
+
+        </div>
+    </div>
+
+
+
+
+    <h2>href Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+          <pre>
+            The &lt;a> tag defines a hyperlink. The href attribute specifies the URL 
+            of the page the link goes to:
+              
+            &lt;a href="https://www.w3schools.com">Visit W3Schools</a>
+          </pre>
+        </div>
+    </div>
+
+
+
+
+    <h2>src Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+          <pre>
+            The &lt;img> tag is used to embed an image in an HTML page. The src attribute 
+            specifies the path to the image to be displayed:
+
+            &lt;img src="img_girl.jpg">
+          </pre>
+        </div>
+    </div>
+
+
+
+
+    <h2>URL </h2>
+    <div class="card">
+        <div class="card-body">
+          <p><strong> Absolute URL :</strong>Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".</p>
+          <p><strong>Note: </strong> External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</p>
+
+          <p><strong>Relative URL: </strong>Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</p>
+
+          <p><strong>Tip: </strong>It is almost always best to use relative URLs. They will not break if you change domain.</p>
+        </div>
+    </div>
+
+
+    <h2>width and height Attributes</h2>
+    <div class="card">
+        <div class="card-body">
+            <pre>
+    The &lt;img> tag should also contain the width and height attributes, which 
+    specify the width and height of the image (in pixels):
+
+
+    &lt;img src="img_girl.jpg" width="500" height="600">
+            </pre>
+        </div>
+    </div>
+
+
+    <h2> alt Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+            <pre>
+                The required alt attribute for the <img> tag specifies an alternate text for an image, if the image 
+                for some reason cannot be displayed. This can be due to a slow connection, or an error in the src 
+                attribute, or if the user uses a screen reader.
+
+
+                &lt;img src="img_girl.jpg" alt="Girl with a jacket">
+            </pre>
+        </div>
+    </div>
+
+
+   
+
+
+    <h2>style Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+            <pre>
+                The style attribute is used to add styles to an element, such as color, font, size, and
+
+                &lt;p style="color:red;">This is a red paragraph.&lt;/p>
+            </pre>
+        </div>
+    </div>
+
+
+    <h2>lang Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+            <pre>
+                You should always include the lang attribute inside the &lt;html> tag, to declare the language of the Web page. 
+                This is meant to assist search engines and browsers.
+
+                &lt;!DOCTYPE html>
+                &lt;html lang="en">
+                &lt;body>
+                ...
+                &lt;/body>
+                &lt;/html>
+
+
+                Country codes can also be added to the language code in the lang attribute. So, the first two characters define 
+                the language of the HTML page, and the last two characters define the country.
+
+                &lt;!DOCTYPE html>
+                &lt;html lang="en-US">
+                &lt;body>
+                ...
+                &lt;/body>
+                &lt;/html>
+            </pre>
+        </div>
+    </div>
+
+
+    <h2>title Attribute</h2>
+    <div class="card">
+        <div class="card-body">
+            <pre>
+                The title attribute defines some extra information about an element.
+                The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+
+
+                &lt;p title="I'm a tooltip">This is a paragraph.&lt;/p>
+            </pre>
+        </div>
+    </div>
+
+
+    <h2>Chapter Summary</h2>
+    <div class="card">
+        <div class="card-body">
+            <ul>
+                <li>All HTML elements can have attributes</li>
+                <li>The href attribute of <a> specifies the URL of the page the link goes to</li>
+                <li>The src attribute of <img> specifies the path to the image to be displayed</li>
+                <li>The width and height attributes of <img> provide size information for images</li>
+                <li>The alt attribute of <img> provides an alternate text for an image</li>
+                <li> The style attribute is used to add styles to an element, such as color, font, size, and more</li>
+                <li>The lang attribute of the <html> tag declares the language of the Web page</li>
+                <li>The title attribute defines some extra information about an element</li>
+            </ul>
+        </div>
+    </div>
+   
+    
+    
+    
+    
+    
+   
+    
+    
+
+
+    
+    
+    
+    
+   
+    
+                
+
+</div>
+</div>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
